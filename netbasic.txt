@@ -1,0 +1,36 @@
+
+i. What is the mode when you log in to the "Command Line Interface" in a CISCO router?
+Answer: The mode is "User EXEC Mode".
+
+ii. Which mode you need to use, to access all commands?
+Answer: "Privileged EXEC Mode" is required to access all commands.
+
+iii. How to switch the global configuration mode to privileged exec mode?
+Answer: Use the command "exit" or press "Ctrl+Z".
+
+iv. What is the command to show the important status information of router?
+Answer: The command is "show version".
+
+v. How do you clear the counters or interface of router?
+Answer: Use the command "clear counters" or "clear interface".
+
+vi. How do you exit from global configuration mode?
+Answer: Use the command "exit" or press "Ctrl+Z".
+
+vii. List at least two methods to exit from privilege exec mode.
+Answer: 
+1. Use the command "disable".
+2. Close the terminal session by typing "logout" or "exit".
+
+viii. How do you get the brief description of the help system in any command mode?
+Answer: Use the command "?" or type "help".
+
+ix. What is the command to name the router? Explain your answer with an example.
+Answer: The command is "hostname <name>". 
+Example: To name the router "MyRouter", use the command "hostname MyRouter".
+
+x. How do you set an encrypted password to router?
+Answer: Use the command "service password-encryption" after setting a password with "enable secret <password>".
+Example: 
+enable secret mypassword
+service password-encryption
